@@ -431,6 +431,36 @@ void loop() {
     case 24:
       displayWord = "                    covfefe";
       break;
+    case 25:
+      displayWord = "                    covfefe";
+      break;
+    case 26:
+      displayWord = "                    whiteboard";
+      break;
+    case 27:
+      displayWord = "                    coffee walk";
+      break;
+    case 28:
+      displayWord = "                    Flowdock";
+      break;
+    case 29:
+      displayWord = "                    Tester";
+      break;
+    case 30:
+      displayWord = "                    Greyhound";
+      break;
+    case 31:
+      displayWord = "                    Spelcheker";
+      break;
+    case 32:
+      displayWord = "                    stalk of broccoli";
+      break;
+    case 33:
+      displayWord = "                    what what";
+      break;
+    case 34:
+      displayWord = "                    formatted_id";
+      break;
     default: 
       displayWord = "                    champion";
     break;
