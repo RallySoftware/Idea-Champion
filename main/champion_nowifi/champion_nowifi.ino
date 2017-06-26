@@ -356,59 +356,83 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 17);
+  int randNumber = random(1, 24);
   
   switch (randNumber) {
     case 1:
-      displayWord = "                    Bag of Cash"; 
+      displayWord = "                    champion"; 
       break;
     case 2:
-      displayWord = "                    Champion";
+      displayWord = "                    bag of cash";
       break;
     case 3:
-      displayWord = "                    Puppy";
+      displayWord = "                    old man walk";
       break;
     case 4:
-      displayWord = "                    Trust Fund";
+      displayWord = "                    leveraged buyout";
       break;
     case 5:
-      displayWord = "                    Hackathon";
+      displayWord = "                    beer";
       break;
     case 6:
-      displayWord = "                    Velociraptor";
+      displayWord = "                    outcome";
       break;
     case 7:
-      displayWord = "                    Pairing Station";
+      displayWord = "                    team";
       break;
     case 8:
-      displayWord = "                    New JS Framework";
+      displayWord = "                    puppy";
       break;
     case 9:
-      displayWord = "                    Team";
+      displayWord = "                    trust fund";
       break;
     case 10:
-      displayWord = "                    Foosball Game";
+      displayWord = "                    coffee";
       break;
     case 11:
-      displayWord = "                    Beer to Validate";
+      displayWord = "                    hackathon";
       break;
     case 12:
-      displayWord = "                    Old Man Walk";
+      displayWord = "                    velociraptor";
       break;
     case 13:
-      displayWord = "                    Kanban Board";
+      displayWord = "                    Azure Cloud";
       break;
     case 14:
-      displayWord = "                    Pull Request";
+      displayWord = "                    Kumquat";
       break;
     case 15:
-      displayWord = "                    Outcome";
+      displayWord = "                    zoltron3000";
       break;
     case 16:
-      displayWord = "                    Validated Learning";
+      displayWord = "                    office corgi";
+      break;
+    case 17:
+      displayWord = "                    thousand monkeys with typewriters";
+      break;
+    case 18:
+      displayWord = "                    hot javascript framework";
+      break;
+    case 19:
+      displayWord = "                    theme song";
+      break;
+    case 20:
+      displayWord = "                    baby monkey";
+      break;
+    case 21:
+      displayWord = "                    dunit";
+      break;
+    case 22:
+      displayWord = "                    splashing gorilla";
+      break;
+    case 23:
+      displayWord = "                    Special Codename";
+      break;
+    case 24:
+      displayWord = "                    covfefe";
       break;
     default: 
-      displayWord = "                    Champion";
+      displayWord = "                    champion";
     break;
   }
 
