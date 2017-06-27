@@ -461,6 +461,48 @@ void loop() {
     case 34:
       displayWord = "                    formatted_id";
       break;
+    case 35:
+      displayWord = "                    I, a d, an e, and an a";
+      break;
+    case 36:
+      displayWord = "                    hierarchical requirement";
+      break;
+    case 37:
+      displayWord = "                    team of interns";
+      break;
+    case 38:
+      displayWord = "                    trello board";
+      break;
+    case 39:
+      displayWord = "                    hierarchical requirement";
+      break;
+    case 40:
+      displayWord = "                    lunchtime sporting";
+      break;
+    case 41:
+      displayWord = "                    voice";
+      break;
+    case 42:
+      displayWord = "                    VC to fund it";
+      break;
+    case 43:
+      displayWord = "                    chunky cheetah";
+      break;
+    case 44:
+      displayWord = "                    zombocom";
+      break;
+    case 45:
+      displayWord = "                    pad of paper";
+      break;
+    case 46:
+      displayWord = "                    sharp pencil";
+      break;
+    case 47:
+      displayWord = "                    a new perspective";
+      break;
+    case 48:
+      displayWord = "                    a Splunk query";
+      break;
     default: 
       displayWord = "                    champion";
     break;
