@@ -356,157 +356,186 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 24);
+  int randNumber = random(1, 57);
   
   switch (randNumber) {
     case 1:
-      displayWord = "                    champion"; 
+      displayWord = "champion"; 
       break;
     case 2:
-      displayWord = "                    bag of cash";
+      displayWord = "bag of cash";
       break;
     case 3:
-      displayWord = "                    old man walk";
+      displayWord = "old man walk";
       break;
     case 4:
-      displayWord = "                    leveraged buyout";
+      displayWord = "leveraged buyout";
       break;
     case 5:
-      displayWord = "                    beer";
+      displayWord = "beer";
       break;
     case 6:
-      displayWord = "                    outcome";
+      displayWord = "outcome";
       break;
     case 7:
-      displayWord = "                    team";
+      displayWord = "team";
       break;
     case 8:
-      displayWord = "                    puppy";
+      displayWord = "puppy";
       break;
     case 9:
-      displayWord = "                    trust fund";
+      displayWord = "trust fund";
       break;
     case 10:
-      displayWord = "                    coffee";
+      displayWord = "coffee";
       break;
     case 11:
-      displayWord = "                    hackathon";
+      displayWord = "hackathon";
       break;
     case 12:
-      displayWord = "                    velociraptor";
+      displayWord = "velociraptor";
       break;
     case 13:
-      displayWord = "                    Azure Cloud";
+      displayWord = "Azure Cloud";
       break;
     case 14:
-      displayWord = "                    Kumquat";
+      displayWord = "Kumquat";
       break;
     case 15:
-      displayWord = "                    zoltron3000";
+      displayWord = "zoltron3000";
       break;
     case 16:
-      displayWord = "                    office corgi";
+      displayWord = "office corgi";
       break;
     case 17:
-      displayWord = "                    thousand monkeys with typewriters";
+      displayWord = "thousand monkeys with typewriters";
       break;
     case 18:
-      displayWord = "                    hot javascript framework";
+      displayWord = "hot javascript framework";
       break;
     case 19:
-      displayWord = "                    theme song";
+      displayWord = "theme song";
       break;
     case 20:
-      displayWord = "                    baby monkey";
+      displayWord = "baby monkey";
       break;
     case 21:
-      displayWord = "                    dunit";
+      displayWord = "dunit";
       break;
     case 22:
-      displayWord = "                    splashing gorilla";
+      displayWord = "splashing gorilla";
       break;
     case 23:
-      displayWord = "                    Special Codename";
+      displayWord = "Special Codename";
       break;
     case 24:
-      displayWord = "                    covfefe";
+      displayWord = "covfefe";
       break;
     case 25:
-      displayWord = "                    covfefe";
+      displayWord = "covfefe";
       break;
     case 26:
-      displayWord = "                    whiteboard";
+      displayWord = "whiteboard";
       break;
     case 27:
-      displayWord = "                    coffee walk";
+      displayWord = "coffee walk";
       break;
     case 28:
-      displayWord = "                    Flowdock";
+      displayWord = "Flowdock";
       break;
     case 29:
-      displayWord = "                    Tester";
+      displayWord = "Tester";
       break;
     case 30:
-      displayWord = "                    Greyhound";
+      displayWord = "Greyhound";
       break;
     case 31:
-      displayWord = "                    Spelcheker";
+      displayWord = "Spelcheker";
       break;
     case 32:
-      displayWord = "                    stalk of broccoli";
+      displayWord = "stalk of broccoli";
       break;
     case 33:
-      displayWord = "                    what what";
+      displayWord = "what what";
       break;
     case 34:
-      displayWord = "                    formatted_id";
+      displayWord = "formatted_id";
       break;
     case 35:
-      displayWord = "                    I, a d, an e, and an a";
+      displayWord = "I, a d, an e, and an a";
       break;
     case 36:
-      displayWord = "                    hierarchical requirement";
+      displayWord = "hierarchical requirement";
       break;
     case 37:
-      displayWord = "                    team of interns";
+      displayWord = "team of interns";
       break;
     case 38:
-      displayWord = "                    trello board";
+      displayWord = "trello board";
       break;
     case 39:
-      displayWord = "                    hierarchical requirement";
+      displayWord = "hierarchical requirement";
       break;
     case 40:
-      displayWord = "                    lunchtime sporting";
+      displayWord = "lunchtime sporting";
       break;
     case 41:
-      displayWord = "                    voice";
+      displayWord = "voice";
       break;
     case 42:
-      displayWord = "                    VC to fund it";
+      displayWord = "VC to fund it";
       break;
     case 43:
-      displayWord = "                    chunky cheetah";
+      displayWord = "chunky cheetah";
       break;
     case 44:
-      displayWord = "                    zombocom";
+      displayWord = "zombocom";
       break;
     case 45:
-      displayWord = "                    pad of paper";
+      displayWord = "pad of paper";
       break;
     case 46:
-      displayWord = "                    sharp pencil";
+      displayWord = "sharp pencil";
       break;
     case 47:
-      displayWord = "                    a new perspective";
+      displayWord = "a new perspective";
       break;
     case 48:
-      displayWord = "                    a Splunk query";
+      displayWord = "a Splunk query";
+      break;
+    case 49:
+      displayWord = "exploding sparkle box";
+      break;
+    case 50:
+      displayWord = "hooptie mvp";
+      break;
+    case 51:
+      displayWord = "saber tooth tiger";
+      break;
+    case 52:
+      displayWord = "dreamer";
+      break;
+    case 53:
+      displayWord = "a roll of duct tape";
+      break;
+    case 54:
+      displayWord = "digimon";
+      break;
+    case 55:
+      displayWord = "werther's original";
+      break;
+    case 56:
+      displayWord = "horcrux";
+      break;
+    case 57:
+      displayWord = "health care plan";
       break;
     default: 
-      displayWord = "                    champion";
+      displayWord = "champion";
     break;
   }
+
+  displayWord = "                    " + displayWord;
 
   int worldLength = displayWord.length() + 1;
 
