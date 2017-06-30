@@ -356,7 +356,7 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 57);
+  int randNumber = random(1, 78);
   
   switch (randNumber) {
     case 1:
@@ -530,12 +530,84 @@ void loop() {
     case 57:
       displayWord = "health care plan";
       break;
+    case 58:
+      displayWord = "word";
+      break;
+    case 59:
+      displayWord = "Hot Bare Metal";
+      break;
+    case 60:
+      displayWord = "Psilocybe cubensis";
+      break;
+    case 61:
+      displayWord = "Dream Crusher";
+      break;
+    case 62:
+      displayWord = "Keep It Classy";
+      break;
+    case 63:
+      displayWord = "NO WAY!";
+      break;
+    case 64:
+      displayWord = "Raleigh represents!!11!";
+      break;
+    case 65:
+      displayWord = "haXORed by It's Prolly Fine";
+      break;
+    case 66:
+      displayWord = "emoticon";
+      break;
+    case 67:
+      displayWord = "gear";
+      break;
+    case 68:
+      displayWord = "parachute";
+      break;
+    case 69:
+      displayWord = "speling";
+      break;
+     case 70:
+      displayWord = "best of times, worst of times";
+      break;
+    case 71:
+      displayWord = "Theme Song";
+      break;
+    case 72:
+      displayWord = "final countdown";
+      break;
+    case 73:
+      displayWord = "n HR violation";
+      break;
+    case 74:
+      displayWord = "GOAT";
+      break;
+    case 75:
+      displayWord = "crazy person";
+      break;
+    case 76:
+      displayWord = "montage";
+      break;
+    case 77:
+      displayWord = "Starbuck";
+      break;
+    case 78:
+      displayWord = "I got two turntables and a microphone. - DJ Jarvis";
+      break;
     default: 
       displayWord = "champion";
     break;
   }
 
-  displayWord = "                    " + displayWord;
+  int loopLength = 19;
+  int delayLength = 15000;
+
+  if (displayWord.length() > 19)
+  {
+    loopLength = displayWord.length() + 20;
+    delayLength = 100;
+  } 
+
+  displayWord = "                    " + displayWord + "                    ";
 
   int worldLength = displayWord.length() + 1;
 
@@ -547,7 +619,7 @@ void loop() {
 
   int i = 0;
               
-  while (i < 19) {      
+  while (i < loopLength) {      
 
 
       for( uint8_t step=0; step<FONT_WIDTH+INTERCHAR_SPACE  ; step++ ) {   // step though each column of the 1st char for smooth scrolling
@@ -569,7 +641,7 @@ void loop() {
 
   }
 
-delay(30000); //delay 3 minutes
+delay(delayLength); //delay
 
 
 
