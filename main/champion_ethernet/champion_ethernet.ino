@@ -14,7 +14,7 @@ char server[] = "bld-docker-01.f4tech.com";
 //IPAddress server(64,131,82,241);
 
 unsigned long lastConnectionTime = 0;             // last time you connected to the server, in milliseconds
-const unsigned long postingInterval = 10L * 1000L; // delay between updates, in milliseconds
+unsigned long postingInterval = 15L * 1000L; // delay between updates, in milliseconds
 // the "L" is needed to use long type numbers
 
 // This simplified demo scrolls the text of the Jaberwoky poem directly from flash memory
@@ -376,6 +376,9 @@ void setup() {
 
 void loop() {
 
+  int loopLength = 19;
+  int delayLength = 3000;
+  
   String fullResponse;
 
   // if ten seconds have passed since your last connection,
@@ -399,10 +402,18 @@ void loop() {
   int wordStartPosition = fullResponse.indexOf('~');
 
   int wordEndPosition = fullResponse.indexOf('~', wordStartPosition + 1);
-  
-  String displayWord = "                    " + fullResponse.substring(wordStartPosition + 1,wordEndPosition + 1);
 
-  int worldLength = displayWord.length();
+  String displayWord = fullResponse.substring(wordStartPosition + 1,wordEndPosition);
+
+  if (displayWord.length() > 19)
+  {
+    loopLength = displayWord.length() + 20;
+    delayLength = 100;
+  } 
+
+  displayWord = "                    " + displayWord + "                    ";
+  
+  int worldLength = displayWord.length() + 1;
 
   char jabberText[worldLength];
 
@@ -421,7 +432,7 @@ void loop() {
 
     int i = 0;
                 
-    while (i < 19) {      
+    while (i < loopLength) {      
   
   
         for( uint8_t step=0; step<FONT_WIDTH+INTERCHAR_SPACE  ; step++ ) {   // step though each column of the 1st char for smooth scrolling
@@ -442,6 +453,8 @@ void loop() {
       i++;
   
     }
+
+    delay(delayLength);
 
   }
 
