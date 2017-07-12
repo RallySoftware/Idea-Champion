@@ -428,7 +428,7 @@ void loop() {
   
            cli();
     
-           sendString( m , step , 0x40, 0x40 , 0x00 );    // yellow
+           sendString( m , step , 0x15, 0x15 , 0x15 );    // dim white
           
            sei();
   
