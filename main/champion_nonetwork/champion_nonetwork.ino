@@ -471,7 +471,7 @@ void loop() {
       displayWord = "team of interns";
       break;
     case 38:
-      displayWord = "trello board";
+      displayWord = "champion";
       break;
     case 39:
       displayWord = "hierarchical requirement";
@@ -591,7 +591,67 @@ void loop() {
       displayWord = "Starbuck";
       break;
     case 78:
-      displayWord = "I got two turntables and a microphone. - DJ Jarvis";
+      displayWord = "patent";
+      break;
+    case 79:
+      displayWord = "wall decal";
+      break;
+    case 80:
+      displayWord = "chocolate factory";
+      break;
+    case 81:
+      displayWord = "thunderdome";
+      break;
+    case 82:
+      displayWord = "PowerPoint";
+      break;
+    case 83:
+      displayWord = "UML Diagram";
+      break;
+    case 84:
+      displayWord = "business cat troll";
+      break;
+    case 85:
+      displayWord = "head fake and drive to the basket";
+      break;
+    case 86:
+      displayWord = "n Arduino";
+      break;
+    case 87:
+      displayWord = "hellfish chart";
+      break;
+    case 88:
+      displayWord = "ngela!";
+      break;
+    case 89:
+      displayWord = "meme";
+      break;
+    case 90:
+      displayWord = "goat rodeo";
+      break;
+    case 91:
+      displayWord = "barrier?";
+      break;
+    case 92:
+      displayWord = "stolen subnet";
+      break;
+    case 93:
+      displayWord = "VPN Tunnel";
+      break;
+    case 94:
+      displayWord = "patent";
+      break;
+    case 95:
+      displayWord = "pint of platypus milk";
+      break;
+    case 96:
+      displayWord = "more cow bell";
+      break;
+    case 97:
+      displayWord = "champions";
+      break;
+    case 98:
+      displayWord = "sugar, spice, and everything nice";
       break;
     default: 
       displayWord = "champion";
