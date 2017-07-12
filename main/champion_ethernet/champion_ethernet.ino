@@ -400,7 +400,7 @@ void loop() {
 
   int wordEndPosition = fullResponse.indexOf('~', wordStartPosition + 1);
   
-  String displayWord = "                    " + fullResponse.substring(wordStartPosition + 1,wordEndPosition);
+  String displayWord = "                    " + fullResponse.substring(wordStartPosition + 1,wordEndPosition + 1);
 
   int worldLength = displayWord.length();
 
