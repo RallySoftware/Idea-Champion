@@ -377,7 +377,7 @@ void setup() {
 void loop() {
 
   int loopLength = 19;
-  int delayLength = 3000;
+  int delayLength = 2000;
   
   String fullResponse;
 
@@ -405,7 +405,7 @@ void loop() {
 
   String displayWord = fullResponse.substring(wordStartPosition + 1,wordEndPosition);
 
-  if (displayWord.length() > 19)
+  if (displayWord.length() > 20)
   {
     loopLength = displayWord.length() + 20;
     delayLength = 100;
