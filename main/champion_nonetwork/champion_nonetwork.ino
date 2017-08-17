@@ -356,7 +356,7 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 78);
+  int randNumber = random(1, 110);
   
   switch (randNumber) {
     case 1:
@@ -652,6 +652,42 @@ void loop() {
       break;
     case 98:
       displayWord = "sugar, spice, and everything nice";
+      break;
+    case 99:
+      displayWord = "The Macarena";
+      break;
+    case 100:
+      displayWord = "deploting pigeon";
+      break;
+    case 101:
+      displayWord = "flow";
+      break;
+    case 102:
+      displayWord = "ruckus";
+      break;
+    case 103:
+      displayWord = "rumpus";
+      break;
+    case 104:
+      displayWord = "README.md";
+      break;
+    case 105:
+      displayWord = "grammar";
+      break;
+    case 106:
+      displayWord = "lead fall";
+      break;
+    case 107:
+      displayWord = "hootenanny";
+      break;
+    case 108:
+      displayWord = "pow right in the face";
+      break;
+    case 109:
+      displayWord = "shenanigan";
+      break;
+    case 110:
+      displayWord = "command hook";
       break;
     default: 
       displayWord = "champion";
