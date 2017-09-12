@@ -356,7 +356,7 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 110);
+  int randNumber = random(1, 116);
   
   switch (randNumber) {
     case 1:
@@ -688,6 +688,24 @@ void loop() {
       break;
     case 110:
       displayWord = "command hook";
+      break;
+    case 111:
+      displayWord = "n employee to be in the office 4 out of 5 days of the week";
+      break;
+    case 112:
+      displayWord = "attendance policy";
+      break;
+    case 113:
+      displayWord = "watchful eye of big brother";
+      break;
+    case 114:
+      displayWord = "door badge audit";
+      break;
+    case 115:
+      displayWord = "badge in, badge out";
+      break;
+    case 116:
+      displayWord = "disintermediation";
       break;
     default: 
       displayWord = "champion";
