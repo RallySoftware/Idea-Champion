@@ -356,7 +356,7 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 116);
+  int randNumber = random(1, 123);
   
   switch (randNumber) {
     case 1:
@@ -546,13 +546,13 @@ void loop() {
       displayWord = "Keep It Classy";
       break;
     case 63:
-      displayWord = "NO WAY!";
+      displayWord = "champion";
       break;
     case 64:
-      displayWord = "Raleigh represents!!11!";
+      displayWord = "champion";
       break;
     case 65:
-      displayWord = "haXORed by It's Prolly Fine";
+      displayWord = "champion";
       break;
     case 66:
       displayWord = "emoticon";
@@ -621,7 +621,7 @@ void loop() {
       displayWord = "hellfish chart";
       break;
     case 88:
-      displayWord = "ngela!";
+      displayWord = "champion";
       break;
     case 89:
       displayWord = "meme";
@@ -639,7 +639,7 @@ void loop() {
       displayWord = "VPN Tunnel";
       break;
     case 94:
-      displayWord = "patent";
+      displayWord = "champion";
       break;
     case 95:
       displayWord = "pint of platypus milk";
@@ -648,7 +648,7 @@ void loop() {
       displayWord = "more cow bell";
       break;
     case 97:
-      displayWord = "champions";
+      displayWord = "champion";
       break;
     case 98:
       displayWord = "sugar, spice, and everything nice";
@@ -690,22 +690,43 @@ void loop() {
       displayWord = "command hook";
       break;
     case 111:
-      displayWord = "n employee to be in the office 4 out of 5 days of the week";
+      displayWord = "Individuals and Interactions";
       break;
     case 112:
-      displayWord = "attendance policy";
+      displayWord = "WARNING LED FAILURE";
       break;
     case 113:
-      displayWord = "watchful eye of big brother";
+      displayWord = "list";
       break;
     case 114:
-      displayWord = "door badge audit";
+      displayWord = "plumbus";
       break;
     case 115:
-      displayWord = "badge in, badge out";
+      displayWord = "Functional Network";
       break;
     case 116:
       displayWord = "disintermediation";
+      break;
+    case 117:
+      displayWord = "fleeb";
+      break;
+    case 118:
+      displayWord = "lot of Flurbos";
+      break;
+    case 119:
+      displayWord = "me, Mario";
+      break;
+    case 120:
+      displayWord = "Yeti Betty";
+      break;
+    case 121:
+      displayWord = "supported infrastructure";
+      break;
+    case 122:
+      displayWord = "empowered team";
+      break;
+    case 123:
+      displayWord = "ping pong table";
       break;
     default: 
       displayWord = "champion";
