@@ -356,25 +356,12 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 140);
-  
-  switch (randNumber) {
-    case 1:
-      displayWord = "champion"; 
-      break;
-    case 2:
-      displayWord = "bag of cash";
-      break;
-    case 3:
-      displayWord = "old man walk";
-      break;
-    case 4:
-      displayWord = "leveraged buyout";
-      break;
-    case 5:
-      displayWord = "beer";
-      break;
-  }
+  int randNumber = random(1, 5);
+
+  char* listOfWords[]={"This is string 1", "This is string 2", "This is string 3",
+"This is string 4", "This is string 5","This is string 6"};
+
+  String displayWord = String(listOfWords[randNumber]);
 
   int loopLength = 19;
   int delayLength = 15000;
