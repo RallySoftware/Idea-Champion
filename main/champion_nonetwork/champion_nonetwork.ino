@@ -356,24 +356,534 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 140);
+  int randNumber = random(1, 174);
   
   switch (randNumber) {
     case 1:
-      displayWord = "champion"; 
+      displayWord = F("champion"); 
       break;
     case 2:
-      displayWord = "bag of cash";
+      displayWord = F("bag of cash");
       break;
     case 3:
-      displayWord = "old man walk";
+      displayWord = F("old man walk");
       break;
     case 4:
-      displayWord = "leveraged buyout";
+      displayWord = F("leveraged buyout");
       break;
     case 5:
-      displayWord = "beer";
+      displayWord = F("beer");
       break;
+    case 6:
+      displayWord = F("outcome");
+      break;
+    case 7:
+      displayWord = F("team");
+      break;
+    case 8:
+      displayWord = F("puppy");
+      break;
+    case 9:
+      displayWord = F("trust fund");
+      break;
+    case 10:
+      displayWord = F("coffee");
+      break;
+    case 11:
+      displayWord = F("hackathon");
+      break;
+    case 12:
+      displayWord = F("velociraptor");
+      break;
+    case 13:
+      displayWord = F("Azure Cloud");
+      break;
+    case 14:
+      displayWord = F("Kumquat");
+      break;
+    case 15:
+      displayWord = F("zoltron3000");
+      break;
+    case 16:
+      displayWord = F("office corgi");
+      break;
+    case 17:
+      displayWord = F("thousand monkeys with typewriters");
+      break;
+    case 18:
+      displayWord = F("hot javascript framework");
+      break;
+    case 19:
+      displayWord = F("theme song");
+      break;
+    case 20:
+      displayWord = F("baby monkey");
+      break;
+    case 21:
+      displayWord = F("dunit");
+      break;
+    case 22:
+      displayWord = F("splashing gorilla");
+      break;
+    case 23:
+      displayWord = F("Special Codename");
+      break;
+    case 24:
+      displayWord = F("covfefe");
+      break;
+    case 25:
+      displayWord = F("covfefe");
+      break;
+    case 26:
+      displayWord = F("whiteboard");
+      break;
+    case 27:
+      displayWord = F("coffee walk");
+      break;
+    case 28:
+      displayWord = F("Flowdock");
+      break;
+    case 29:
+      displayWord = F("Tester");
+      break;
+    case 30:
+      displayWord = F("Greyhound");
+      break;
+    case 31:
+      displayWord = F("Spelcheker");
+      break;
+    case 32:
+      displayWord = F("stalk of broccoli");
+      break;
+    case 33:
+      displayWord = F("what what");
+      break;
+    case 34:
+      displayWord = F("formatted_id");
+      break;
+    case 35:
+      displayWord = F("I, a d, an e, and an a");
+      break;
+    case 36:
+      displayWord = F("hierarchical requirement");
+      break;
+    case 37:
+      displayWord = F("team of interns");
+      break;
+    case 38:
+      displayWord = F("champion");
+      break;
+    case 39:
+      displayWord = F("hierarchical requirement");
+      break;
+    case 40:
+      displayWord = F("lunchtime sporting");
+      break;
+    case 41:
+      displayWord = F("voice");
+      break;
+    case 42:
+      displayWord = F("VC to fund it");
+      break;
+    case 43:
+      displayWord = F("chunky cheetah");
+      break;
+    case 44:
+      displayWord = F("zombocom");
+      break;
+    case 45:
+      displayWord = F("pad of paper");
+      break;
+    case 46:
+      displayWord = F("sharp pencil");
+      break;
+    case 47:
+      displayWord = F("a new perspective");
+      break;
+    case 48:
+      displayWord = F("a Splunk query");
+      break;
+    case 49:
+      displayWord = F("exploding sparkle box");
+      break;
+    case 50:
+      displayWord = F("hooptie mvp");
+      break;
+    case 51:
+      displayWord = F("saber tooth tiger");
+      break;
+    case 52:
+      displayWord = F("dreamer");
+      break;
+    case 53:
+      displayWord = F("a roll of duct tape");
+      break;
+    case 54:
+      displayWord = F("digimon");
+      break;
+    case 55:
+      displayWord = F("werther's original");
+      break;
+    case 56:
+      displayWord = F("horcrux");
+      break;
+    case 57:
+      displayWord = F("health care plan");
+      break;
+    case 58:
+      displayWord = F("word");
+      break;
+    case 59:
+      displayWord = F("Hot Bare Metal");
+      break;
+    case 60:
+      displayWord = F("Psilocybe cubensis");
+      break;
+    case 61:
+      displayWord = F("Dream Crusher");
+      break;
+    case 62:
+      displayWord = F("Keep It Classy");
+      break;
+    case 63:
+      displayWord = F("champion");
+      break;
+    case 64:
+      displayWord = F("champion");
+      break;
+    case 65:
+      displayWord = F("champion");
+      break;
+    case 66:
+      displayWord = F("emoticon");
+      break;
+    case 67:
+      displayWord = F("gear");
+      break;
+    case 68:
+      displayWord = F("parachute");
+      break;
+    case 69:
+      displayWord = F("speling");
+      break;
+     case 70:
+      displayWord = F("best of times, worst of times");
+      break;
+    case 71:
+      displayWord = F("Theme Song");
+      break;
+    case 72:
+      displayWord = F("final countdown");
+      break;
+    case 73:
+      displayWord = F("n HR violation");
+      break;
+    case 74:
+      displayWord = F("GOAT");
+      break;
+    case 75:
+      displayWord = F("crazy person");
+      break;
+    case 76:
+      displayWord = F("montage");
+      break;
+    case 77:
+      displayWord = F("Starbuck");
+      break;
+    case 78:
+      displayWord = F("patent");
+      break;
+    case 79:
+      displayWord = F("wall decal");
+      break;
+    case 80:
+      displayWord = F("chocolate factory");
+      break;
+    case 81:
+      displayWord = F("thunderdome");
+      break;
+    case 82:
+      displayWord = F("PowerPoint");
+      break;
+    case 83:
+      displayWord = F("UML Diagram");
+      break;
+    case 84:
+      displayWord = F("business cat troll");
+      break;
+    case 85:
+      displayWord = F("head fake and drive to the basket");
+      break;
+    case 86:
+      displayWord = F("n Arduino");
+      break;
+    case 87:
+      displayWord = F("hellfish chart");
+      break;
+    case 88:
+      displayWord = F("champion");
+      break;
+    case 89:
+      displayWord = F("meme");
+      break;
+    case 90:
+      displayWord = F("goat rodeo");
+      break;
+    case 91:
+      displayWord = F("barrier?");
+      break;
+    case 92:
+      displayWord = F("stolen subnet");
+      break;
+    case 93:
+      displayWord = F("VPN Tunnel");
+      break;
+    case 94:
+      displayWord = F("champion");
+      break;
+    case 95:
+      displayWord = F("pint of platypus milk");
+      break;
+    case 96:
+      displayWord = F("more cow bell");
+      break;
+    case 97:
+      displayWord = F("champion");
+      break;
+    case 98:
+      displayWord = F("sugar, spice, and everything nice");
+      break;
+    case 99:
+      displayWord = F("The Macarena");
+      break;
+    case 100:
+      displayWord = F("deploting pigeon");
+      break;
+    case 101:
+      displayWord = F("flow");
+      break;
+    case 102:
+      displayWord = F("ruckus");
+      break;
+    case 103:
+      displayWord = F("rumpus");
+      break;
+    case 104:
+      displayWord = F("README.md");
+      break;
+    case 105:
+      displayWord = F("grammar");
+      break;
+    case 106:
+      displayWord = F("lead fall");
+      break;
+    case 107:
+      displayWord = F("hootenanny");
+      break;
+    case 108:
+      displayWord = F("pow right in the face");
+      break;
+    case 109:
+      displayWord = F("shenanigan");
+      break;
+    case 110:
+      displayWord = F("command hook");
+      break;
+    case 111:
+      displayWord = F("Individuals and Interactions");
+      break;
+    case 112:
+      displayWord = F("WARNING LED FAILURE");
+      break;
+    case 113:
+      displayWord = F("list");
+      break;
+    case 114:
+      displayWord = F("plumbus");
+      break;
+    case 115:
+      displayWord = F("Functional Network");
+      break;
+    case 116:
+      displayWord = F("disintermediation");
+      break;
+    case 117:
+      displayWord = F("fleeb");
+      break;
+    case 118:
+      displayWord = F("lot of Flurbos");
+      break;
+    case 119:
+      displayWord = F("me, Mario");
+      break;
+    case 120:
+      displayWord = F("Yeti Betty");
+      break;
+    case 121:
+      displayWord = F("supported infrastructure");
+      break;
+    case 122:
+      displayWord = F("empowered team");
+      break;
+    case 123:
+      displayWord = F("ping pong table");
+      break;
+    case 124:
+      displayWord = F("hub of productivity");
+      break;
+    case 125:
+      displayWord = F("Disambiguate");
+      break;
+    case 126:
+      displayWord = F("no barking from the dog, no smog");
+      break;
+    case 127:
+      displayWord = F("imagination machine");
+      break;
+    case 128:
+      displayWord = F("drop table champion_words");
+      break;
+    case 129:
+      displayWord = F("ringing of the bell");
+      break;
+    case 130:
+      displayWord = F("roll of duct tape");
+      break;
+    case 131:
+      displayWord = F("help");
+      break;
+    case 132:
+      displayWord = F("sell tech services");
+      break;
+    case 133:
+      displayWord = F("procrastinator");
+      break;
+    case 134:
+      displayWord = F("demogorgon");
+      break;
+    case 135:
+      displayWord = F("Cthulhu");
+      break;
+    case 136:
+      displayWord = F("sql injection");
+      break;
+    case 137:
+      displayWord = F("infinite loop");
+      break;
+    case 138:
+      displayWord = F("1000's of OR clauses");
+      break;
+    case 139:
+      displayWord = F("interdimensional portal");
+      break;
+    case 140:
+      displayWord = F("servant leader");
+      break;
+    case 141:
+      displayWord = F("avocado");
+      break;
+    case 142:
+      displayWord = F("UML diagram");
+      break;
+    case 143:
+      displayWord = F("anagram");
+      break;
+    case 144:
+      displayWord = F("snack drawer");
+      break;
+    case 145:
+      displayWord = F("new guy/gal pie");
+      break;
+    case 146:
+      displayWord = F("tiny amount of French");
+      break;
+    case 147:
+      displayWord = F("jvm");
+      break;
+    case 148:
+      displayWord = F("software that makes empty boxes sing");
+      break;
+    case 149:
+      displayWord = F("jarvis champion");
+      break;
+    case 150:
+      displayWord = F("collection of artwork");
+      break;
+    case 151:
+      displayWord = F("loaf of bread a jug of wine and thou");
+      break;
+    case 152:
+      displayWord = F("verse in iambic pentameter");
+      break;
+    case 153:
+      displayWord = F("bb8");
+      break;
+    case 154:
+      displayWord = F(":shitip:");
+      break;
+    case 155:
+      displayWord = F("baguette");
+      break;
+    case 156:
+      displayWord = F("tradition");
+      break;
+    case 157:
+      displayWord = F("magic wand");
+      break;
+    case 158:
+      displayWord = F("It's polite, it's right, and it's sneezy, deezy, mc... deluxe");
+      break;
+    case 159:
+      displayWord = F("Mr. Meeseeks");
+      break;
+    case 160:
+      displayWord = F("f005ba11-f005-ba11-f005-ba11f005ba11");
+      break;
+    case 161:
+      displayWord = F("speculative execution");
+      break;
+    case 162:
+      displayWord = F("mini me");
+      break;
+    case 163:
+      displayWord = F("septuacentennial cupcake in a cup");
+      break;
+    case 164:
+      displayWord = F("disintermediate");
+      break;
+    case 165:
+      displayWord = F("vgri gri");
+      break;
+    case 166:
+      displayWord = F("airplane mode");
+      break;
+    case 167:
+      displayWord = F("pull request review");
+      break;
+    case 168:
+      displayWord = F("choice");
+      break;
+    case 169:
+      displayWord = F("developer begging colleagues for a PR review");
+      break;
+    case 170:
+      displayWord = F("k-bar");
+      break;
+    case 171:
+      displayWord = F("pneumonoultramicroscopicsilicovolcanoconiosis");
+      break;
+    case 172:
+      displayWord = F("shared vision displayed prominently");
+      break;
+    case 173:
+      displayWord = F("despagettify");
+      break;
+    case 174:
+      displayWord = F("steamed ham");
+      break;    
+    default: 
+      displayWord = F("champion");
+    break;
   }
 
   int loopLength = 19;
