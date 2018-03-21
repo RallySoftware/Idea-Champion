@@ -356,7 +356,7 @@ void loop() {
   
   displayWord = "   ";
   
-  int randNumber = random(1, 123);
+  int randNumber = random(1, 174);
   
   switch (randNumber) {
     case 1:
@@ -728,6 +728,159 @@ void loop() {
     case 123:
       displayWord = F("ping pong table");
       break;
+    case 124:
+      displayWord = F("hub of productivity");
+      break;
+    case 125:
+      displayWord = F("Disambiguate");
+      break;
+    case 126:
+      displayWord = F("no barking from the dog, no smog");
+      break;
+    case 127:
+      displayWord = F("imagination machine");
+      break;
+    case 128:
+      displayWord = F("drop table champion_words");
+      break;
+    case 129:
+      displayWord = F("ringing of the bell");
+      break;
+    case 130:
+      displayWord = F("roll of duct tape");
+      break;
+    case 131:
+      displayWord = F("help");
+      break;
+    case 132:
+      displayWord = F("sell tech services");
+      break;
+    case 133:
+      displayWord = F("procrastinator");
+      break;
+    case 134:
+      displayWord = F("demogorgon");
+      break;
+    case 135:
+      displayWord = F("Cthulhu");
+      break;
+    case 136:
+      displayWord = F("sql injection");
+      break;
+    case 137:
+      displayWord = F("infinite loop");
+      break;
+    case 138:
+      displayWord = F("1000's of OR clauses");
+      break;
+    case 139:
+      displayWord = F("interdimensional portal");
+      break;
+    case 140:
+      displayWord = F("servant leader");
+      break;
+    case 141:
+      displayWord = F("avocado");
+      break;
+    case 142:
+      displayWord = F("UML diagram");
+      break;
+    case 143:
+      displayWord = F("anagram");
+      break;
+    case 144:
+      displayWord = F("snack drawer");
+      break;
+    case 145:
+      displayWord = F("new guy/gal pie");
+      break;
+    case 146:
+      displayWord = F("tiny amount of French");
+      break;
+    case 147:
+      displayWord = F("jvm");
+      break;
+    case 148:
+      displayWord = F("software that makes empty boxes sing");
+      break;
+    case 149:
+      displayWord = F("jarvis champion");
+      break;
+    case 150:
+      displayWord = F("collection of artwork");
+      break;
+    case 151:
+      displayWord = F("loaf of bread a jug of wine and thou");
+      break;
+    case 152:
+      displayWord = F("verse in iambic pentameter");
+      break;
+    case 153:
+      displayWord = F("bb8");
+      break;
+    case 154:
+      displayWord = F(":shitip:");
+      break;
+    case 155:
+      displayWord = F("baguette");
+      break;
+    case 156:
+      displayWord = F("tradition");
+      break;
+    case 157:
+      displayWord = F("magic wand");
+      break;
+    case 158:
+      displayWord = F("It's polite, it's right, and it's sneezy, deezy, mc... deluxe");
+      break;
+    case 159:
+      displayWord = F("Mr. Meeseeks");
+      break;
+    case 160:
+      displayWord = F("f005ba11-f005-ba11-f005-ba11f005ba11");
+      break;
+    case 161:
+      displayWord = F("speculative execution");
+      break;
+    case 162:
+      displayWord = F("mini me");
+      break;
+    case 163:
+      displayWord = F("septuacentennial cupcake in a cup");
+      break;
+    case 164:
+      displayWord = F("disintermediate");
+      break;
+    case 165:
+      displayWord = F("vgri gri");
+      break;
+    case 166:
+      displayWord = F("airplane mode");
+      break;
+    case 167:
+      displayWord = F("pull request review");
+      break;
+    case 168:
+      displayWord = F("choice");
+      break;
+    case 169:
+      displayWord = F("developer begging colleagues for a PR review");
+      break;
+    case 170:
+      displayWord = F("k-bar");
+      break;
+    case 171:
+      displayWord = F("pneumonoultramicroscopicsilicovolcanoconiosis");
+      break;
+    case 172:
+      displayWord = F("shared vision displayed prominently");
+      break;
+    case 173:
+      displayWord = F("despagettify");
+      break;
+    case 174:
+      displayWord = F("steamed ham");
+      break;    
     default: 
       displayWord = F("champion");
     break;
