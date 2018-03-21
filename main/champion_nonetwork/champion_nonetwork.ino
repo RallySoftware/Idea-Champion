@@ -337,7 +337,7 @@ static inline void sendString( const char *s , uint8_t skip ,  const uint8_t r, 
 void setup() {
 
   //Initialize serial and wait for port to open:
-  //Serial.begin(9600);
+  Serial.begin(9600);
   
   PIXEL_DDR |= onBits;         // Set used pins to output mode
 }
@@ -355,13 +355,30 @@ static char jabberText[] =
 void loop() {
   
   displayWord = "   ";
-  
-  int randNumber = random(1, 5);
 
-  char* listOfWords[]={"This is string 1", "This is string 2", "This is string 3",
-"This is string 4", "This is string 5","This is string 6"};
+  char* listOfWords[]={"champion",
+"bag of cash",
+"old man walk",
+"leveraged buyout",
+"beer",
+"outcome",
+"team",
+"puppy",
+"trust fund",
+"coffee"};
+
+
+  int numOfWords = sizeof(listOfWords) - 1;
+
+  Serial.print("String size: ");
+  Serial.println(sizeof(numOfWords));
+  
+  int randNumber = random(1, numOfWords);
+
 
   String displayWord = String(listOfWords[randNumber]);
+
+  Serial.println(displayWord);
 
   int loopLength = 19;
   int delayLength = 15000;
