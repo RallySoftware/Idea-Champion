@@ -576,7 +576,7 @@ void loop() {
       displayWord = F("final countdown");
       break;
     case 73:
-      displayWord = F("n HR violation");
+      displayWord = F("Excel Add-In");
       break;
     case 74:
       displayWord = F("GOAT");
